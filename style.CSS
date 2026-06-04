@@ -1,0 +1,74 @@
+@font-face{
+    font-family: ff1;
+    src: url(Martius-Italic.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+        height: 0;
+        width: 0;
+}
+
+#box1{
+
+    height: 80%;
+    width: 50%;
+    background-color: rgb(246, 246, 160);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    border-radius: 5%;
+    z-index: 7;
+}
+#box2{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(245, 245, 7);
+    border-radius: 5% 0% 0% 5%;
+    position: fixed;
+    
+    
+}
+.my-img{
+          height: 80%;
+          width: 50%; 
+         position: absolute;
+         left: 65%;
+         top: 40%;
+         transform: translate(-50%,-50%);
+         z-index: 9;
+}
+#pokemon{
+    height: 15%;
+    position: absolute;
+    left: 4%;
+      z-index: 11;
+}
+
+#ff1{
+    font-size: 50px;
+   
+    position: absolute;
+    left: 5%;
+    top: 32%;
+}
+#ff2{
+    font-size: 190px;
+    position: absolute;
+    left: 5%;
+    top: 36%;
+}
+#ff3{
+    font-size: 50px;
+    font-family: ff1;
+    position: absolute;
+    left: 5%;
+    top: 49%;
+}
