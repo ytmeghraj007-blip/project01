@@ -53,20 +53,20 @@ body{
 }
 
 #ff1{
-    font-size: 50px;
+    font-size: 20px;
    
     position: absolute;
     left: 5%;
     top: 32%;
 }
 #ff2{
-    font-size: 190px;
+    font-size: 50px;
     position: absolute;
     left: 5%;
     top: 36%;
 }
 #ff3{
-    font-size: 50px;
+    font-size: 15px;
     font-family: ff1;
     position: absolute;
     left: 5%;
